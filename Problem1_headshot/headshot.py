@@ -22,9 +22,9 @@ def tych (in_img,op_dir):
 
     im_data = np.asarray(prep)  # converting PIL image to Numpy array
     gy_img = cv2.cvtColor(im_data, cv2.COLOR_RGB2GRAY) # COnverting to Grey
-    cv2.imshow('grey',gy_img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    #cv2.imshow('grey',gy_img)
+    #cv2.waitKey(0)
+    #cv2.destroyAllWindows()
     #Load weights & Set up detecor
     try:
         wt_pth = Path.cwd()/Path('haar_frntface_def.xml')#Weight file.

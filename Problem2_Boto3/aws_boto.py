@@ -60,7 +60,7 @@ def check_trpy_pix(inp_buc,oup_buc):
 
 #argparse 
 parser = argparse.ArgumentParser(
-                    prog = 'Face_Detector',
+                    prog = 'BOTO3 Transpy Check',
                     description = 'CHECK FOR IMAGE WITHout TRANSPARENCY pixel AND STORE IN destINATION buCKET  ',
                     epilog = 'Have fun')
 parser.add_argument('-i', '--inp_buc',  type=str,

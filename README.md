@@ -2,6 +2,10 @@
 Please clone this repo in your account, send us the link of the solution in your GitHub account together with your application.
 
 ## Problem 1:
+```code
+headshot.py -i <input_image_path> -o <destination_folder_path> 
+```
+
 Build a Python script that detects faces in an image using OpenCV, and saves the headshots of the detected faces to a specified directory. The script should take as input a file path to an image, a directory path to save the headshots, and output the number of faces detected in the image.
 Instructions:
 - Use OpenCV's Haar Cascade classifier for face detection
@@ -11,8 +15,12 @@ Instructions:
 - The script should be able to handle images with multiple faces
 - The script should save the headshots in the specified directory with the file name in the format "face_1.jpg", "face_2.jpg", etc.
 
-
 ## Problem 2: 
+
+```code
+aws_boto.py -i <source_bucket_name> -o <destination_bucket_name> -r <region_name> -a <access_key_id> -p <secre_key>
+```
+
 Move all image files from one S3 bucket to another S3 bucket, but only if the image has no transparent pixels.
 
 Objective: Write a Python script that uses the Boto3 library to accomplish the following:
